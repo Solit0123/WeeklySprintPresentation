@@ -1,0 +1,90 @@
+/* Bootstrap icon import */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+:root {
+  --color-lgrey: #f2f2f2;
+  --color-grey: #cdcbcb;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  margin-top: 2rem !important;
+  width: 75%;
+  margin: auto;
+}
+
+span {
+  font-weight: 550;
+}
+
+#wrapper {
+  height: 100vh !important;
+}
+
+#hero {
+  background-color: var(--color-lgrey);
+}
+
+#steps {
+  background-color: var(--color-grey);
+}
+
+#testimonials {
+  background-color: var(--color-grey);
+}
+
+#listen-button {
+  min-width: 250px;
+}
+
+.rectangle {
+  width: 420px;
+  height: 240px;
+  background-color: var(--color-grey);
+  border: 1px solid #000000;
+}
+
+.avatar {
+  width: 80px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#avatar-image {
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -42px;
+  border: 4px solid white;
+}
+
+#header-text {
+  padding-left: 96px;
+  padding-right: 96px;
+}
