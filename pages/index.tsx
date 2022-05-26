@@ -22,7 +22,7 @@ const Home: NextPage = () => {
             <div className="row border text-center h-75" id="hero">
               <div className="col d-flex flex-column align-items-center border p-5">
                 <div className="p-3">
-                  <h1>Beela best value proposition.</h1>
+                  <h1>Beela best valueasdasdasdasdasasd.</h1>
                 </div>
                 <div className="p-3">
                   <p id="header-text">
