@@ -13,15 +13,15 @@ const Footer = () => {
                    <div>
                    <h5 className="h1 e">Our Mission</h5>
                     <p className="small text-muted">We are committed to decreasing the unemployment gap between foreign-born women and native Swedes. We empower our community to define their path, get unblocked, and trailblaze into tech careers. </p>
-                    <p className="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
+                    <p className="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a className="text-primary" href="#">Bootstrapious.com</a></p>
                    </div>
 
                    <div>
                    <h5 className="h1 e">Our Partners</h5>
-                   <img src="http://via.placeholder.com/100" class="rounded-circle" alt="Cinque Terre"/>
-                   <img src="http://via.placeholder.com/100" class="rounded-circle" alt="Cinque Terre"/>
-                   <img src="http://via.placeholder.com/100" class="rounded-circle" alt="Cinque Terre"/>
-                   <img src="http://via.placeholder.com/100" class="rounded-circle" alt="Cinque Terre"/>
+                   <img src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
+                   <img src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
+                   <img src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
+                   <img src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
                    
                    </div>
                 </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="col-lg-2 col-md-6">
                   <div>
                     <h5 className="mb-3">Sitemap</h5>
-                    <ul class="list-unstyled ">
+                    <ul className="list-unstyled ">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Get started</a></li>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <div className="col-lg-2 col-md-6">
                   <div>
                     <h5 className="mb-3">Contact Us</h5>
-                    <ul class="list-unstyled ">
+                    <ul className="list-unstyled ">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Get started</a></li>
