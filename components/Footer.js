@@ -1,11 +1,6 @@
 const Footer = () => {
   return (
     <>
-    <div>
-      <h2>Beela Footer</h2>
-      <p>Copyright 2022 Beela</p>
-    </div>
-    
     <footer className="w-100 py-4 flex-shrink-0">
         <div className="container py-4">
             <div className="row gy-4 gx-5">
