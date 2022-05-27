@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app"
-//import { ApolloProvider } from "@apollo/client"
+import { ApolloProvider } from "@apollo/client"
 import { useApollo } from "../utils/apollo"
 import Head from "next/head"
 
@@ -16,10 +16,9 @@ function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-     {/*    <Component {...pageProps} />  */}
-      
+      <Component {...pageProps} />
     </>
-   )
+  )
 }
 
 export default App

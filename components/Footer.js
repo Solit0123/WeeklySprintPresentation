@@ -14,10 +14,10 @@ const Footer = () => {
 
                    <div>
                    <h5 className="h1 e">Our Partners</h5>
-                   <Image src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
-                   <Image src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
-                   <Image src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
-                   <Image src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
+                   <img src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
+                   <img src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
+                   <img src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
+                   <img src="http://via.placeholder.com/100" className="rounded-circle" alt="Cinque Terre"/>
                    
                    </div>
                 </div>
